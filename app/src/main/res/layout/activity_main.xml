@@ -12,5 +12,15 @@
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         tools:layout_editor_absoluteX="0"
+        tools:layout_editor_absoluteY="0" >
+    </WebView>
+
+    <ImageView
+        android:id="@+id/noInternet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="No Internet"
+        app:srcCompat="?android:attr/alertDialogIcon"
+        tools:layout_editor_absoluteX="0"
         tools:layout_editor_absoluteY="0" />
 </android.support.constraint.ConstraintLayout>
